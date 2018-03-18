@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #000000;
 }
 
 p {
@@ -19,8 +19,12 @@ p {
   color: #26a69a;
 }
 
+.coustom-container{
+  background-color: #FFFFFF;
+}
+
 .parallax-container {
-  min-height: 380px;
+  min-height: 480px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,4 +58,41 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.card-avatar .waves-effect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-avatar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.card-avatar .card-content {
+    text-align: center;
+}
+
+.card .card-content p {
+    margin: 15px 0px;
+}
+
+.card-avatar .card-content i {
+   font-size: 1.5rem;
+}
+
+.card-avatar .card-content .card-title {
+    line-height: 30px !important;
+}
+
+
+
+
+
+
+sub {
+    vertical-align: sub;
+    font-size: 25px;
 }
